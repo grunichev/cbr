@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="python-cbr",
-    version="0.1.1",
+    version="0.2.0",
     description="Read the official exchange rates data from cbr.ru",
     long_description=open('README.txt').read(),
     long_description_content_type="text/markdown",
@@ -18,5 +18,4 @@ setup(
     ],
     packages=["cbr"],
     include_package_data=True,
-    install_requires=["bs4"],
 )

@@ -1,8 +1,7 @@
 CBR
 ===========
 
-Provides functionality to get official CBR (Central Bank of Russia) exchange rates. Typical usage
-often looks like this:
+Provides functionality to get official CBR (Central Bank of Russia) exchange rates. Typical usage often looks like this:
 
     #!/usr/bin/env python
 
@@ -20,11 +19,8 @@ Result is array like this:
 
 (Note amount column, it's not always 1)
 
-Raises an InvalidDateArgException if date < 01.07.1992 or > today.
 
 Русский:
 =========
 
 Библиотека для получения официальных курсов ЦБ на дату (для использования в расчетах деклараций и пр.). 
-
-Кидает исключение InvalidDateArgException если данных на дату нет.
